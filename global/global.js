@@ -1,3 +1,5 @@
+// Navbar Slider Animation Classes //
+
 $("#navbar-button-open").click(function() {
   $(".site-navbar").removeClass("navbar-slidein");
   $(".site-navbar").addClass("navbar-slideout");
