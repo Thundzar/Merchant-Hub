@@ -8,25 +8,9 @@
   left: 0px;
   background-color: @site-background-color;
   color:@site-color;
+  transition: width 1s;
 }
 
 .navbar-slideout {
- animation-name: navbar-slideout;
- animation-duration: 1s;
-}
-
-.navbar-slidein {
-  animation-name: navbar-slideout;
-  animation-duration: 1s;
-  animation-direction: reverse;
-}
-
-@keyframes navbar-slideout {
-  0% {
-    width: 0%;
-  }
-  
-  100% {
-    width: 100%;
-  }
+ width: 100%;
 }
