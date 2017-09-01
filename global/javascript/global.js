@@ -1,15 +1,13 @@
 // Navbar Slider Animation Classes //
 
 $("span#navbarOpen").click(function() {
-  $(".site-navbar").removeClass("navbar-slidein");
-  $(".site-navbar").addClass("navbar-slideout");
+  $(".site-navbar").toggle("navbar-slideout");
   
   console.log("Open");
 });
 
 $("span#navbarClose").click(function(){
-  $(".site-navbar").removeClass("navbar-slideout");
-  $(".site-navbar").addClass("navbar-slidein");
+  $(".site-navbar").toggle("navbar-slideout");
   
   console.log("Close");
 });
